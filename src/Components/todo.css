@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+.todo{
+    top: 40px;
+}
+img{
+    margin-left:10px;
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+}
+.top .btnstyle{
+    /* position: absolute; */
+    float: right;
+    /* margin-left:20rem; */
+    margin-top: -38px;
+    margin-right: 20px;
+    
+}
+.top .search{
+    width: 10rem;
+    /* position:absolute; */
+    margin-left: 42rem;
+    margin-top:-40px;
+    
+
+}
+.top .search .btnone{
+    /* float: right; */
+    position: absolute;
+    margin-left: 10rem;
+    margin-top:-38px;
+    
+    
+}
+
+.top{
+background-color:whitesmoke;
+  border: none;
+  border-radius: 0 0 2px 2px;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  width:100%;
+  /* padding:1.2rem; */
+  cursor: pointer;
+  height: 60px;
+  
+}
+
+.middle{
+    background-color:rgb(59, 57, 57);
+    border: none;
+    border-radius:2px 2px 0 0 ;
+    align-items: center;
+    width:100%;
+    padding:2rem;
+    text-align: center;
+}
+
+.middle .card{
+    width: 10rem;
+    align-items: center;
+    margin-left: 40px;
+
+}
+.middle .card .card-title{
+    color: teal;
+}
+.bottom{
+    background-color:whitesmoke;
+  border: none;
+  border-radius: 0 0 2px 2px;
+  font-size: 1.2rem;
+  width:100%;
+  padding:10rem;
+  text-align: center;
+  /* height: 20rem; */
+  ;
+
+}

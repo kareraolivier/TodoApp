@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  height:100%;
+  background: -moz-linear-gradient(top, #2B303A 20%, #fcfbfb  20%);
+  background: -webkit-linear-gradient(top, #2B303A 20%,  #fcfbfb  20%);
+  background: linear-gradient(to bottom, #2B303A 20%,  #fcfbfb 0%);
+color: rgb(12, 14, 14);
+}
+
