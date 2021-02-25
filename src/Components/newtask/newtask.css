@@ -17,7 +17,7 @@
 }
 .input{
     width: 400px;
-    height: 500px;
+    height: 600px;
     margin-left: 30rem;
     
     /* position: fixed; */
@@ -25,14 +25,19 @@
 }
 .input h4{
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 0px;
 }
-.mb-3{
+.input header IconButton{
+    position: absolute;
+    margin-left: 20px;
+}
+
+/* .mb-3{
     margin: 0.8rem;
-}
-/* .mb3 .option{
-   position: inherit;
 } */
+.mb3 .option{
+   position: inherit;
+}
 /* //button */
 .btntwo{
     width: 120px;
@@ -47,3 +52,9 @@
     align-self: flex-start;
     align-items: flex-start;
 }
+.header.Close{
+    /* position: absolute; */
+    margin-left: 50rem;
+    float: right;
+  
+  }
